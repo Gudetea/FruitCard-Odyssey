@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     backButton.addEventListener('click', function() {
         // Redirect to the home page or perform any other action you want
-        window.location.href = 'http://127.0.0.1:5500/Quiz.html'; // Replace 'home.html' with the actual URL of your home page
+        window.location.href = 'http://127.0.0.1:5500/index.html'; // Replace 'home.html' with the actual URL of your home page
     });
 });
 
