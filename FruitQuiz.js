@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const shareButton = document.querySelector('.share-button');
 
     shareButton.addEventListener('click', function() {
-        const url = window.location.href;
+        const url = window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/';
 
         navigator.clipboard.writeText(url)
             .then(() => {
