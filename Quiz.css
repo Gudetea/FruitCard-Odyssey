@@ -259,6 +259,29 @@ footer {
 }
 
 /*BUTTONS*/
+.begin-quiz {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 25rem;
+    text-align: center;
+    border: 0.1rem solid #FFD989;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: #3B2921;
+    background-color: #FFD989;
+    border-radius: 37px;
+}
+
+.begin-quiz:hover {
+    cursor: pointer;
+    background-color: #FFCD64;
+    color: #fbfbfb;
+    transform: none;
+    transition: transform 150ms;
+}
+
 .choices {
     display: inline-block;
     align-items: center;
