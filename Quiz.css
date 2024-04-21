@@ -366,15 +366,7 @@ footer {
     
     .share-button {
         background-color:#FFD989;
-    }
-
-    .mobile-styles {
-        color:#fbfbfbfb;
-        background-color:#FFCD64;
-        border-color: #FFCD64;
-    
-    }
-    
+    }    
     
     /*Add margin between the buttons */
     .share-button + #back-to-home {
