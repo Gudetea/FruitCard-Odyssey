@@ -1,39 +1,4 @@
-//Function to preload MBTI images asynchronously
-function preloadImages(imageURLs) {
-    const promises = [];
-    imageURLs.forEach(url => {
-        const img = new Image();
-        const promise = new Promise((resolve, reject) => {
-            img.onload = resolve;
-            img.onerror = reject;
-        });
-        img.src = url;
-        promises.push(promise);
-    });
-    return Promise.all(promises);
-}
-
-//Function to display the quiz and collect user input
 function displayQuiz() {
-    // Array containing URLs of MBTI images
-    const mbtiImageURLs = [
-        "Lemon.svg", "Pomegranate.png", "Dragon Fruit.svg", "Grape.svg", 
-        "Peach.svg", "Fig.svg", "Watermelon.svg", "Cherry.svg", 
-        "Orange.svg", "Apple.svg", "Banana.svg", "Pear.svg", 
-        "Pineapple.svg", "Coconut.svg", "Mango.svg", "Strawberry.svg"
-    ];
-    
-    // Preload MBTI images asynchronously when the quiz starts
-    preloadImages(mbtiImageURLs)
-        .then(() => {
-            // Display the first question when preloading is done
-            displayCurrentQuestion();
-        })
-        .catch(error => {
-            console.error('Error preloading images:', error);
-            // Handle errors, e.g., show an error message to the user
-        });
-
     const questions = [
         {
             question: "You've been mysteriously invited to an unfamiliar realm known as Fruitville, accessible only within your dreams. The invitation expires tonight.",
