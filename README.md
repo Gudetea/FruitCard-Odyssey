@@ -11,6 +11,7 @@ Anyways, after multiple mental breakdowns, two all-nighters and numerous bubble 
 <br>
 --------------------------------------------------------------------------------------------------------------------------------------<br>
 Here  is the URL to the quiz!: https://gudetea.github.io/FruitCard-Odyssey/
+Share your results on ig with #FruitCardOdyssey (:
 <br>
 Enjoy~
 <br>
