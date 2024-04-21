@@ -336,11 +336,10 @@ footer {
         margin-top: 50px;
     }
 
-    #begin-quiz:active {
+    #begin-quiz:hover {
         background-color: #FFCD64;
         color: #fbfbfb;
         transform: none;
-        transition: transform 150ms;
     }
 
     #choices {
@@ -372,7 +371,10 @@ footer {
     background-color: #FFCD64;
     color: #fbfbfb;
     transform: none;
-    transition: transform 150ms;
+    }
+
+    *:focus {
+        outline: none;
     }
 
     #back-to-home,.share-button {
