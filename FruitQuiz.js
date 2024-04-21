@@ -121,18 +121,18 @@ function displayQuiz() {
 
     function displayQuestionImage(questionIndex) {
         const imageURLs = [
-            "Q1image.svg",
-            "Q2image.svg",
-            "Q3image.svg",
-            "Q4image.svg",
-            "Q5image.svg",
-            "Q6image.svg",
-            "Q7image.svg",
-            "Q8image.svg",
-            "Q9image.svg",
-            "Q10image.svg",
-            "Q11image.svg",
-            "Q12image.svg",
+            "Q1.png",
+            "Q2.png",
+            "Q3.png",
+            "Q4.png",
+            "Q5.png",
+            "Q6.png",
+            "Q7.png",
+            "Q8.png",
+            "Q9.png",
+            "Q10.png",
+            "Q11.png",
+            "Q12.png",
             "processing.GIF",
         ];
         const questionImageElement = document.getElementById('question-image');
