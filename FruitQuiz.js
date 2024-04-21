@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backButton = document.getElementById('back-to-home');
 
     backButton.addEventListener('click', function() {
-        // Redirect to the home page or perform any other action you want
+        // Redirect to the home page
         window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/'; // Replace 'home.html' with the actual URL of your home page
     });
 });
@@ -347,9 +347,48 @@ document.addEventListener('DOMContentLoaded', function() {
 // Function to navigate back to the home page
 function navigateToHomePage() {
     // Reset quiz state if needed
-    resetQuiz(); // Assuming you have a resetQuiz() function defined
+    resetQuiz(); 
 
     // Hide quiz page and show the home page
     document.getElementById('home').style.display = 'block';
     document.getElementById('quiz-page').style.display = 'none';
 }
+
+// Select the begin-quiz button
+const beginQuizButton = document.getElementById('begin-quiz');
+
+// Eent listener for the button click
+beginQuizButton.addEventListener('click', function() {
+    // Toggle the mobile-styles class on the button element
+    this.classList.toggle('mobile-styles');
+});
+
+// Select the share button
+const shareButton = document.querySelector('.share-button');
+
+// Event listener for the share button click
+shareButton.addEventListener('click', function() {
+    // Toggle the mobile-styles class on the button element
+    this.classList.toggle('mobile-styles');
+});
+
+// Select the go back home button
+const backButton = document.getElementById('back-to-home');
+
+// Event listener for the go back home button click
+backButton.addEventListener('click', function() {
+    // Toggle the mobile-styles class on the button element
+    this.classList.toggle('mobile-styles');
+});
+
+// Select all choice buttons
+const choiceButtons = document.querySelectorAll('.choices');
+
+// Event listeners for choice buttons click
+choiceButtons.forEach(function(button) {
+    // Add event listener for each choice button click
+    button.addEventListener('click', function() {
+        // Toggle the mobile-styles class on the button element
+        this.classList.toggle('mobile-styles');
+    });
+});
