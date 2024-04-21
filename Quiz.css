@@ -118,12 +118,6 @@ footer {
     border-radius: 37px;
 }
 
-.mobile-styles {
-    color:#fbfbfbfb;
-    background-color:#FFCD64;
-    border-color: #FFCD64;
-
-}
 
 .choices {
     display: inline-block;
@@ -354,14 +348,6 @@ footer {
         border-radius: 37px;
     }
     
-    .choices:hover {
-        cursor: pointer;
-        background-color: #FFCD64;
-        border-color: #FFCD64;
-        color: #fbfbfb;
-        transform: none;
-        transition: transform 150ms;
-    }
 
     #back-to-home,.share-button {
         font-size: 14px;
@@ -381,12 +367,14 @@ footer {
     .share-button {
         background-color:#FFD989;
     }
-    
-    #back-to-home:hover,.share-button:hover {
+
+    .mobile-styles {
+        color:#fbfbfbfb;
         background-color:#FFCD64;
         border-color: #FFCD64;
-        color: #fbfbfb;
+    
     }
+    
     
     /*Add margin between the buttons */
     .share-button + #back-to-home {
