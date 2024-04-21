@@ -217,7 +217,7 @@ footer {
 #mbti-image img{
     max-width: 100%;
     height: auto;
-    width: 56%;
+    width: 643px;
     margin-top: 10px;
 }
 
@@ -361,6 +361,7 @@ footer {
     .choices:hover {
         cursor: pointer;
         background-color: #FFCD64;
+        border-color: #FFCD64;
         color: #fbfbfb;
         transform: none;
         transition: transform 150ms;
@@ -420,7 +421,7 @@ footer {
     #mbti-image img{
         max-width: 100%;
         height: auto;
-        width: 100%;
+        width: 600px;
         margin-top: 10px;
     }
 
