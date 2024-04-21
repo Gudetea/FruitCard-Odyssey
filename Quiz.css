@@ -120,7 +120,7 @@ footer {
 
 
 .choices {
-    display: inline-block;
+    display: block;
     align-items: center;
     justify-content: center;
     font-size: 18px;
@@ -329,7 +329,7 @@ footer {
     }
 
     .choices {
-        display: inline-block;
+        display: block;
         align-items: center;
         justify-content: center;
         font-size: 14px;
