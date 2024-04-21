@@ -336,11 +336,13 @@ footer {
         margin-top: 50px;
     }
 
-    #begin-quiz:active {
+    #begin-quiz:hover {
         cursor: pointer;
         background-color: #FFCD64;
         color: #fbfbfb;
-    }
+        transform: none;
+        transition: none;
+}
 
     #choices {
         display: block;
@@ -366,6 +368,14 @@ footer {
         border-color: #FFD989;
         border-radius: 37px;
      }
+
+     .choices:hover {
+        cursor: pointer;
+        background-color: #FFCD64;
+        color: #fbfbfb;
+        transform: none;
+        transition: none;
+    }
 
     #back-to-home,.share-button {
         font-size: 14px;
