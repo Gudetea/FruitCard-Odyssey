@@ -355,11 +355,18 @@ footer {
         border-radius: 37px;
     }
     
-    .choices:active {
+    .choices:clicked {
         background-color: #FFCD64;
         color: #fbfbfb;
         transform: none;
         transition: transform 150ms;
+    }
+
+    .choices:not(.choices:clicked) {
+        color: #3B2921;
+        background-color: #FFD989;
+        border-color: #FFD989;
+        border: 0.1rem solid #FFD989;
     }
 
     #back-to-home,.share-button {
