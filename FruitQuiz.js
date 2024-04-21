@@ -168,7 +168,7 @@ function displayQuiz() {
             "Q10image.svg",
             "Q11image.svg",
             "Q12image.svg",
-            "IMG_2127.GIF",
+            "processing.GIF",
         ];
         const questionImageElement = document.getElementById('question-image');
         questionImageElement.src = imageURLs[questionIndex];
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const shareButton = document.querySelector('.share-button');
 
     shareButton.addEventListener('click', function() {
-        const url = window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/';
+        const url = window.location.href;
 
         navigator.clipboard.writeText(url)
             .then(() => {
@@ -375,7 +375,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     backButton.addEventListener('click', function() {
         // Redirect to the home page or perform any other action you want
-        window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/'; 
+        window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/'; // Replace 'home.html' with the actual URL of your home page
     });
 });
 
