@@ -231,7 +231,7 @@ footer {
 
     body {
         background: #FFF4EC;
-        padding: 60px 0;
+        padding: 40px 0;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -256,23 +256,24 @@ footer {
         font-weight: 400;
         text-align: center;
         max-width: 100%;
+        margin-bottom: 30px;
     }
 
     h3 {
         font-size: 14px;
         font-family: 'Roboto', sans-serif;
         color: #3B2921;
-        font-weight: 400;
+        font-weight: 600;
         text-align: center;
     }
 
     h4 {
-        font-size: 10px;
+        font-size: 14px;
         color: #3B2921;
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
         text-align: center;
-        margin-top: -10px;
+        margin-top: 10px;
     }
 
     p {
@@ -284,7 +285,8 @@ footer {
     p img {
         max-width: 100%;
         height: auto;
-        width: 300px;
+        width:700px;
+        margin-top: 40px;
         
     }
 
@@ -329,15 +331,7 @@ footer {
         color: #3B2921;
         background-color: #FFD989;
         border-radius: 37px;
-    }
-    
-    #begin-quiz:hover {
-        cursor: pointer;
-        background-color: #FFCD64;
-        border-color: #FFCD64;
-        color: #fbfbfb;
-        transform: none;
-        transition: transform 150ms;
+        margin-top: 50px;
     }
 
     .choices {
