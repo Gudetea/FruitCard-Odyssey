@@ -133,7 +133,7 @@ function displayQuiz() {
             "Q10image.svg",
             "Q11image.svg",
             "Q12image.svg",
-            "Pomegranate.png",
+            "processing.GIF",
         ];
         const questionImageElement = document.getElementById('question-image');
         questionImageElement.src = imageURLs[questionIndex];
@@ -266,22 +266,22 @@ function displayQuiz() {
     //Function to calculate MBTI type and return image URL 
         function getMBTIImageUrl(mbtiTypeString) {
             const MBTIImageUrls = {
-                "ENTJ": "Lemon.svg",
+                "ENTJ": "Lemon.png",
                 "INTJ": "Pomegranate.png", 
-                "ENTP": "Dragon Fruit.svg",
-                "INTP": "Grape.svg",
-                "ENFJ": "Peach.svg",
-                "INFJ": "Fig.svg",
-                "ENFP": "Watermelon.svg",
-                "INFP": "Cherry.svg",
-                "ESFJ": "Orange.svg",
-                "ISFJ": "Apple.svg",
-                "ESTJ": "Banana.svg",
-                "ISTJ": "Pear.svg",
-                "ESTP": "Pineapple.svg",
-                "ISTP": "Coconut.svg",
-                "ESFP": "Mango.svg",
-                "ISFP": "Strawberry.svg",
+                "ENTP": "Dragon Fruit.png",
+                "INTP": "Grape.png",
+                "ENFJ": "Peach.png",
+                "INFJ": "Fig.png",
+                "ENFP": "Watermelon.png",
+                "INFP": "Coconut.png",
+                "ESFJ": "Orange.png",
+                "ISFJ": "Apple.png",
+                "ESTJ": "Banana.png",
+                "ISTJ": "Pear.png",
+                "ESTP": "Pineapple.png",
+                "ISTP": "Coconut.png",
+                "ESFP": "Mango.png",
+                "ISFP": "Strawberry.png",
             };
             return MBTIImageUrls[mbtiTypeString] || ""
         }
