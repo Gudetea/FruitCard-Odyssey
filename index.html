@@ -3,61 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"  />
-    <title>Fruit Quiz</title>
-    <link rel="stylesheet" href="FruitCard Odyssey.css">
-    <link rel="stylesheet" href="Quiz.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-                    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-                    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="Quiz.css">
 </head>
 <body>
-    <div class="container">
-        <!--Home Page-->
+    <div class="wrapper-main">
         <div id="home" class="flex-center flex-column">
-            <header>
-                <img src="Banner.svg" style="width: 700px; height:86px;">
-            </header>
-            <h3>
-                Discover your true flavor!
-            </h3>
-            <h4>
-                A fruit personality quiz inspired by cosmos persona, what cake R U?, and the MBTI personality types.
-            </h4>
-            <p>
-                <img src="Thumbnail.gif" style="width: 600px; height: 255px;">
-            </p>
-            <button id="begin-quiz" class="begin-quiz">Begin Quiz</button>
+        <header>
+            <img src="Banner.svg" style="max-width: 100%;">
+        </header>
+        <h3>
+            Discover your true flavor!
+        </h3>
+        <h4>
+            A fruit personality quiz inspired by cosmos persona, what cake R U?, and the MBTI personality types.
+        </h4>
+        <p>
+            <img src="Thumbnail.gif" style="max-width: 100%;">
+        </p>
+        <div class="begin-quiz-container">
+            <button id="begin-quiz">Begin Quiz</button>
         </div>
-
-
-        <!--Quiz-Page-->
-        <div class="quiz-page" id="quiz-page" style= "display: none;">
-            <div id="quiz" class="justify-center flex-column">
-                <img id="question-progress-image" src="" >
-                <img id="question-image" src="">
-                <h2 id="question">question</h2>
-                <div id="choices" class="choices">
-                    
-                </div>
-            </div>
-
-        <div>
-            <!--Results Page-->
-            <div id="results" style="display: none;">
-                <h1>You are ...</h1>
-                <div id="mbti-image">
-                    
-                </div>    
-                <div class="button-container">
-                    <button class="share-button">Share Quiz!</button>
-                    <button id="back-to-home">Back to Home</button>
-                </div>
-                <footer>
-                    Made for <a href="https://www.codedex.io/">Codédex</a> monthly challenge | <a href="https://github.com/Gudetea">Github.Gudetea</a> |<a href="https://www.instagram.com/_noktea/">@_noktea</a>
-                </footer>
+    </div>
+    <!--Quiz-Page-->
+    <div class="quiz-page" id="quiz-page" style= "display: none;">
+        <div id="quiz" class="justify-center flex-column">
+            <img id="question-progress-image" src="" >
+            <img id="question-image" src="">
+            <h2 id="question">question</h2>
+            <div id="choices" class="choices">
+                
             </div>
         </div>
+
+    <div>
+        <!--Results Page-->
+        <div id="results" style="display: none;">
+            <h1>You are ...</h1>
+            <div id="mbti-image">
+                
+            </div>    
+            <div class="button-container">
+                <button class="share-button">Share Quiz!</button>
+                <button id="back-to-home">Back to Home</button>
+            </div>
+            <footer>
+                Made for <a href="https://www.codedex.io/">Codédex</a> monthly challenge | <a href="https://github.com/Gudetea">Github.Gudetea</a> |<a href="https://www.instagram.com/_noktea/">@_noktea</a>
+            </footer>
+        </div>
+    </div>
     </div>
     <script src="FruitQuiz.js"></script>
 </body>
