@@ -328,8 +328,15 @@ footer {
         margin-top: 50px;
     }
 
+    #begin-quiz:active {
+        background-color: #FFCD64;
+        color: #fbfbfb;
+        transform: none;
+        transition: transform 150ms;
+    }
+
     .choices {
-        display: block;
+        display: inline-block;
         align-items: center;
         justify-content: center;
         font-size: 14px;
@@ -348,6 +355,12 @@ footer {
         border-radius: 37px;
     }
     
+    .choices:active {
+        background-color: #FFCD64;
+        color: #fbfbfb;
+        transform: none;
+        transition: transform 150ms;
+    }
 
     #back-to-home,.share-button {
         font-size: 14px;
