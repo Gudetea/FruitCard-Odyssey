@@ -118,6 +118,14 @@ footer {
     border-radius: 37px;
 }
 
+#begin-quiz:hover {
+        cursor: pointer;
+        background-color: #FFCD64;
+        color: #fbfbfb;
+        transform: none;
+        transition: transform 150ms;
+}
+
 
 .choices {
     display: block;
@@ -359,18 +367,12 @@ footer {
         border-color: #FFD989;
         border-radius: 37px;
      }
-    .choices.clicked {
-        background-color: #FFCD64;
-        color: #fbfbfb;
-        transform: none;
-        transition: transform 150ms;
-    }
 
-    .choices:not(.choices.clicked) {
-        color: #3B2921;
-        background-color: #FFD989;
-        border-color: #FFD989;
-        border: 0.1rem solid #FFD989;
+    .choices:hover {
+    background-color: #FFCD64;
+    color: #fbfbfb;
+    transform: none;
+    transition: transform 150ms;
     }
 
     #back-to-home,.share-button {
@@ -409,7 +411,7 @@ footer {
         max-width: 100%;
         height: auto;
         width: 85%;
-        margin-top: -10;
+        margin-top: -10px;
     }
 
     #question-image {
