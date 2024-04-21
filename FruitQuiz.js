@@ -384,11 +384,15 @@ backButton.addEventListener('click', function() {
 // Select all choice buttons
 const choiceButtons = document.querySelectorAll('.choices');
 
-// Event listeners for choice buttons click
+// Add event listeners for choice buttons click
 choiceButtons.forEach(function(button) {
     // Add event listener for each choice button click
     button.addEventListener('click', function() {
-        // Toggle the mobile-styles class on the button element
-        this.classList.toggle('mobile-styles');
+        // Remove the mobile-styles class from all choice buttons
+        choiceButtons.forEach(function(btn) {
+            btn.classList.remove('mobile-styles');
+        });
+        // Add the mobile-styles class only to the clicked button
+        this.classList.add('mobile-styles');
     });
 });
