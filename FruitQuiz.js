@@ -339,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const backButton = document.getElementById('back-to-home');
 
     backButton.addEventListener('click', function() {
-        // Redirect to the home page
+        // Redirect to the home page or perform any other action you want
         window.location.href = 'https://gudetea.github.io/FruitCard-Odyssey/'; // Replace 'home.html' with the actual URL of your home page
     });
 });
@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // Function to navigate back to the home page
 function navigateToHomePage() {
     // Reset quiz state if needed
-    resetQuiz(); 
+    resetQuiz(); // Assuming you have a resetQuiz() function defined
 
     // Hide quiz page and show the home page
     document.getElementById('home').style.display = 'block';
