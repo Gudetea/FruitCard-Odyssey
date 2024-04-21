@@ -336,10 +336,10 @@ footer {
         margin-top: 50px;
     }
 
-    #begin-quiz:hover {
+    #begin-quiz:active {
+        cursor: pointer;
         background-color: #FFCD64;
         color: #fbfbfb;
-        transform: none;
     }
 
     #choices {
@@ -366,16 +366,6 @@ footer {
         border-color: #FFD989;
         border-radius: 37px;
      }
-
-    .choices:hover {
-    background-color: #FFCD64;
-    color: #fbfbfb;
-    transform: none;
-    }
-
-    *:focus {
-        outline: none;
-    }
 
     #back-to-home,.share-button {
         font-size: 14px;
