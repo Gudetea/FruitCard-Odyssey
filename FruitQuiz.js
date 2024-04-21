@@ -133,7 +133,7 @@ function displayQuiz() {
             "Q10image.svg",
             "Q11image.svg",
             "Q12image.svg",
-            "processing.GIF",
+            "Pomegranate.png",
         ];
         const questionImageElement = document.getElementById('question-image');
         questionImageElement.src = imageURLs[questionIndex];
