@@ -17,7 +17,7 @@ function preloadImages(imageURLs) {
 function displayQuiz() {
     // Array containing URLs of MBTI images
     const mbtiImageURLs = [
-        "Lemon.svg", "Pomegranate.svg", "Dragon Fruit.svg", "Grape.svg", 
+        "Lemon.svg", "Pomegranate.png", "Dragon Fruit.svg", "Grape.svg", 
         "Peach.svg", "Fig.svg", "Watermelon.svg", "Cherry.svg", 
         "Orange.svg", "Apple.svg", "Banana.svg", "Pear.svg", 
         "Pineapple.svg", "Coconut.svg", "Mango.svg", "Strawberry.svg"
@@ -302,7 +302,7 @@ function displayQuiz() {
         function getMBTIImageUrl(mbtiTypeString) {
             const MBTIImageUrls = {
                 "ENTJ": "Lemon.svg",
-                "INTJ": "Pomegranate.svg", 
+                "INTJ": "Pomegranate.png", 
                 "ENTP": "Dragon Fruit.svg",
                 "INTP": "Grape.svg",
                 "ENFJ": "Peach.svg",
