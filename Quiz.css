@@ -335,8 +335,13 @@ footer {
         transition: transform 150ms;
     }
 
-    .choices {
-        display: inline-block;
+    #choices {
+        display: block;
+        justify-content: center; /* Horizontally center the button */
+        align-items: center; /* Vertically center the button */
+    }
+     .choices {
+        display: block;
         align-items: center;
         justify-content: center;
         font-size: 14px;
@@ -353,16 +358,15 @@ footer {
         background-color: #FFD989;
         border-color: #FFD989;
         border-radius: 37px;
-    }
-    
-    .choices:clicked {
+     }
+    .choices.clicked {
         background-color: #FFCD64;
         color: #fbfbfb;
         transform: none;
         transition: transform 150ms;
     }
 
-    .choices:not(.choices:clicked) {
+    .choices:not(.choices.clicked) {
         color: #3B2921;
         background-color: #FFD989;
         border-color: #FFD989;
