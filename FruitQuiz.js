@@ -273,7 +273,7 @@ function displayQuiz() {
                 "ENFJ": "Peach.png",
                 "INFJ": "Fig.png",
                 "ENFP": "Watermelon.png",
-                "INFP": "Coconut.png",
+                "INFP": "Cherry.png",
                 "ESFJ": "Orange.png",
                 "ISFJ": "Apple.png",
                 "ESTJ": "Banana.png",
