@@ -66,7 +66,7 @@ function displayQuiz() {
         },
         {
             question:"As you prepare to leave Fruitville, the Mayor expresses gratitude for visiting and tells you that your FruitCard will arrive in the mail soon.",
-            choices: ["Finally! That was a strange experience", "Was I a fruit the entire? I feel so confused"],
+            choices: ["Finally! That was a strange experience", "Was I a fruit the entire time? I feel so confused"],
             weights: [
                 {thinkingScore: +3, feelingScore: 0 } , // Weight for first choice
                 {feelingScore: +1, thinkingScore: 0 } , // Weight for second choice
